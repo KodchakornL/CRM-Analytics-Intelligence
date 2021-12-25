@@ -107,7 +107,7 @@ Top 10 score text summary Extraction ▶ [48.742569730224055, 40.72727272727273,
   
   
 #### 4. Group4 : Traveler  
-Group 1 is a sentence about recommending shops and places, so they think that this group is tourists.  
+Group 1 is a sentence about recommending shops and places, so they think that this group is traveler.  
 Top 10 score text summary Extraction ▶ [82.0, 60.0, 54.875, 54.25, 47.44444444444444, 44.75, 43.4, 43.0, 42.7, 38.333333333333336]  
 
 1. ร้านนี้ = 82.0  

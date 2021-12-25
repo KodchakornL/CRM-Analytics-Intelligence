@@ -1,0 +1,62 @@
+A Framework for visual Analytics
+1.User
+2.Content 
+3.Presentation
+4.Navigation
+
+1.) User
+1.1 ผู้ใช้ข้อมูล
+* บุคคลภายในองค์กร 
+- ผู้บริหาร = ใช้ประโยชน์จาก Dashboard เพื่อใช้ในการตัดสินใจในภาพรวม
+- พนักงานภายในบริษัท
+         - ฝ่ายการตลาด ใช้ Dashboard ในการวางแผนกลยุทธ์ในการวางแผนทางการตลาด Update ข้อมูลที่รวดเร็ว เช่น เพิ่มยอดขายในร้านที่ยอดขายตก วิเคราะห์ในเชิงลึก
+         - ฝ่ายขาย ใช้ Dashboard เพื่อใช้ในการบริหารงานขาย
+         - พนักงานหน่วยงานอื่นๆ= ใช้ประโยชน์จาก Dashboard เพื่อให้พนักงานได้มีส่วนร่วมในการตัดสินใจ 
+
+1.2 หลักการจาก Design thinking มาทำ Dashboard
+1.2.1 See ทำ Problems
+Dashboard#1
+- Sales Run Rate => ใช้ Card + ย่อ Garph line ลงมา
+--------------------------------------------------------
+Dashboard#2
+Mau => Monthly, active, user
+- Average of total active customers (K) => ใช้ Card
+- Average of churn (%) => ใช้ Card
+- Active Customers (%) => ใช้ Card
+- Average of New Customers (K) => ใช้ Card
+
+1.2.2 think ทำ Reasons
+Dashboard#1
+- Sales by product category => ใช้ Stack bar chart 
+- Number Customers by store region => ใช้ Stack bar chart 
+- ticket size by customer group=> ใช้ Stack Column chart 
+- Number customers => ใช้ Card 
+- ticket size => ใช้ Card
+---------------------------------------------------------
+Dashboard#2
+- 
+ 
+1.2.3 Do ทำ Actions
+- Scatter plot ( axis x = month to date sales, axis y = last month sales)
+- Table (column => Store_format, ticket_size, sales)
+
+2.) Content 
+
+3.Presentation => เปลี่ยนข้อมูลเป็นกราฟ
+4.Navigation => การจัดข้อมูลส่วนต่างๆมาลงเป็น Layout ของ Dashboard เป็นส่วนที่สำคัญมากส่วนหนึ่ง
+
+TOTAL_SALES
+TOTAL_QUANTITY
+LASTDATE
+FIRSTDATE
+TOTAL_VISITS
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Revenue Growth Rate
+https://knowledge.bualuang.co.th/knowledge-base/revenue-growth-stocksignals/
+
+Calculate Totals for MTD, QTD and YTD in DAX
+https://www.youtube.com/watch?v=qiLjmKoP9ag
+
+Last month
+https://reportingengineer.com/2020/10/27/power-bi-dax-last-n-month/

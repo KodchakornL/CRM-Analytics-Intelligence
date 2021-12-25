@@ -11,25 +11,33 @@ Customer reviews of 3 restaurants from Wongnai Reviews - Small - only 21 instanc
 1. Install and import  
 2. Load data "Wongnai Reviews - Small.csv" and module_url  
 3. Document embedding and dimension reduction  
+  
 ![Document_embedding&dimension_reduction](./01_Document_embedding&dimension_reduction.png)  
+  
 4. Document clustering using KMeans (number of Group K = 4)  
+  
 ![KMeans](./02_KMeans.png)  
 ![KMeans](./03_KMeans.png)  
+  
 5. Text Preprocessing  
-   - Cleaning data (special characters, emoji, number, white space, dot, backslash) 
-   ![text_preprocessing](./04_text_preprocessing.png)  
+   - Cleaning data (special characters, emoji, number, white space, dot, backslash)   
+  ![text_preprocessing](./04_text_preprocessing.png)  
+     
    - Stop words  
    - word tokenization   
    - Add new words
    ![text_preprocessing](./05_text_preprocessing.png)    
+     
    - Text processing using KMeans Group  
    ![text_preprocessing](./06_text_preprocessing.png) 
+   
  6. Try another document clustering using Agglomorative Clustering with cosine similarity.  
  ![AgglomorativeClustering_cosinesim](./07_AgglomorativeClustering_cosinesim.png) 
  ![AgglomorativeClustering_cosinesim](./08_AgglomorativeClustering_cosinesim.png) 
- 
+   
  7. I did a search for keywords in each group of KMeans. Generate TF-IDF find importance word each document.  
  ![tfidf](./09_tfidf.png)  
+   
  8. Generate Text summary Extraction in 4 Group by TF-IDF (to summarize the document and keep it Semantic).  
  ![text_sum](./10_text_sum.png) 
   

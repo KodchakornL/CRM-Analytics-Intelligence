@@ -1,4 +1,4 @@
--- Option 1 - SQL
+-- SQL --
 WITH cust_month AS (
     select distinct cust_code, date_trunc(Date2, Month) shop_month
     from `bads7105-crm-335600.DBSupermarket.Supermarket_dataset2`

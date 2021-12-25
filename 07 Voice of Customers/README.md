@@ -2,10 +2,10 @@
 [![](https://img.shields.io/badge/-NLP-blue)](#) [![](https://img.shields.io/badge/-Text-Summarization-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)   
 
 ## Dataset
-Customer reviews of 3 restaurants from Wongnai Reviews - Small - only 21 instances.  
+Customer reviews of 3 restaurants from Wongnai Reviews - Small
 
 **Notebooks:** [Voice of Customers](./07-Voice-of-Customers.ipynb)  
-**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics/tree/main/07%20Voice%20of%20Customers/07_Voice_of_Customers.ipynb)  
+**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/07%20Voice%20of%20Customers/07_Voice_of_Customers.ipynb)  
   
 ## Step Voice of customers
 **1. Install and import**  

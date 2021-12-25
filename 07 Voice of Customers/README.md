@@ -32,8 +32,8 @@ Customer reviews of 3 restaurants from Wongnai Reviews - Small - only 21 instanc
    ![text_preprocessing](./06_text_preprocessing.png) 
    
  6. Try another document clustering using Agglomorative Clustering with cosine similarity.  
- ![07_AgglomorativeClustering_cosinesim](./07_AgglomorativeClustering_cosinesim.png) 
- ![08_AgglomorativeClustering_cosinesim](./08_AgglomorativeClustering_cosinesim.png) 
+ ![07_AgglomorativeClustering_cosinesim](./07_AgglomorativeClustering_cosinesim .png) 
+ ![08_AgglomorativeClustering_cosinesim](./08_AgglomorativeClustering_cosinesim .png) 
    
  7. I did a search for keywords in each group of KMeans. Generate TF-IDF find importance word each document.  
  ![tfidf](./09_tfidf.png)  

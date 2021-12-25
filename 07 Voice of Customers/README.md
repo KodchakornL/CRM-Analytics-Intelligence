@@ -5,7 +5,7 @@
 Customer reviews of 3 restaurants from Wongnai Reviews - Small - only 21 instances.  
 
 **Notebooks:** [Voice of Customers](./07-Voice-of-Customers.ipynb)  
-**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kodchakorn/BADS7105-CRM-Analytics/blob/main/Homework%2011%20-%20Voice%20of%20Customers/07-Voice-of-Customers.ipynb)  
+**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kodchakorn/BADS7105-CRM-Analytics/blob/main/07%20Voice%20of%20Customers/07_Voice_of_Customers.ipynb)  
   
 ## Step Voice of customers
 **1. Install and import**  

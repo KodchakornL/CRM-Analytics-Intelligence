@@ -20,7 +20,7 @@ The dataset received is just a part of Dunhumbly public dataset which is way mor
 # Step Customer segmentation (In the case of customers who purchase more than once)  
 ## 1. Install and import library Dependencies**  
 ## 2. Load Data (Supermarket dataset)**  
-![load_data](./img/02_load_data)  
+![load_data](./04_load_data)  
 ## 3. Prepare Customer Single View**  
 **Features**  
 * `Total_visit` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
@@ -41,19 +41,19 @@ The dataset received is just a part of Dunhumbly public dataset which is way mor
 **Explore data**
 1. Correlation Feature  
 
-![corr](./img/02_corr.png)    
+![corr](./02_corr.png)    
   
   
   
 2. Proportion of customers who use the service more than once and customers who use the service only once.  
 
-![proportion_cust](./img/03_proportion_cust.png)  
+![proportion_cust](./03_proportion_cust.png)  
   
   
   
 ## 4. Generate Customer Single View  
 Before coming to this step data is Basket id level, item id can't be used for clustering segmentation, need to do customer single view as 1 record 1 customer use pycaret to setup environment with ignore_features ignore feature.  
-![Cust_single_view](./img/05_Cust_single_view.png)  
+![Cust_single_view](./05_Cust_single_view.png)  
   
   
   
@@ -61,7 +61,7 @@ Before coming to this step data is Basket id level, item id can't be used for cl
 1. compare model performance  
 From running to compare the models, it was found that the model with good performance was SC and Kmeans.  
   
-![Compare_model](./img/06_Compare_model_PCA.png)  
+![Compare_model](./06_Compare_model_PCA.png)  
   
   
   
@@ -69,23 +69,23 @@ From running to compare the models, it was found that the model with good perfor
 The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.  
 **therefore choose to use Kmeans**  
     
-![sc](./img/07_sc_PCA.png)  
+![sc](./07_sc_PCA.png)  
   
   
   
 3. Use KMeans Clustering  
 The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was found that the differences were clearly visible between the groups.  
   
-![kmeans](./img/08_kmeans.png)  
+![kmeans](./08_kmeans.png)  
 
-![result_kmeans](./img/09_result_kmeans.png)  
+![result_kmeans](./09_result_kmeans.png)  
   
 **Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
 **Elbow plot of Kmeans**  
 This is probably the most well-known method for determining the optimal number of clusters. It is also a bit naive in its approach.
 Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of k, and choose the k for which WSS becomes first starts to diminish. In the plot of WSS-versus-k, this is visible as an elbow.  
   
-![elbow_kmeans](./img/10_elbow_kmeans.png)  
+![elbow_kmeans](./10_elbow_kmeans.png)  
   
   
   
@@ -93,17 +93,17 @@ Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of
 The silhouette value measures how similar a point is to its own cluster (cohesion) compared to other clusters (separation).  
 The range of the Silhouette value is between +1 and -1. A high value is desirable and indicates that the point is placed in the correct cluster. If many points have a negative Silhouette value, it may indicate that we have created too many or too few clusters.  
   
-![silhouette_kmeans](./img/11_silhouette_kmeans.png)  
+![silhouette_kmeans](./11_silhouette_kmeans.png)  
     
   
   
 ## 6.Interpret results and plan for actions  
   
-![Dist_1](./img/25_Dist_1.png)  
+![Dist_1](./25_Dist_1.png)  
   
-![Dist_2](./img/26_Dist_1.png)  
+![Dist_2](./26_Dist_1.png)  
   
-![Dist_3](./img/27_Dist_1.png)  
+![Dist_3](./27_Dist_1.png)  
   
   
   
@@ -207,7 +207,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
 ## 4. Generate Customer Single View  
   
-![Cust_sinview](./img/28_Cust_sinview.png)  
+![Cust_sinview](./28_Cust_sinview.png)  
   
   
   
@@ -215,7 +215,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
 1. compare model performance  
 From running to compare the models, it was found that the model with good performance was sc, ap and K-means.  
   
-![Compare_model](./img/29_Compare_model.png)  
+![Compare_model](./29_Compare_model.png)  
   
   
   
@@ -223,33 +223,33 @@ From running to compare the models, it was found that the model with good perfor
 The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.  
 **therefore choose to use Kmeans**  
   
-![sc](./img/30_sc.png)  
+![sc](./30_sc.png)  
   
   
   
 3. Use KMeans Clustering  
 The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was found that the differences were clearly visible between the groups.  
   
-![kmeans](./img/31_kmeans.png)  
-![result_kmeans](./img/34_result_kmeans.png)  
+![kmeans](./31_kmeans.png)  
+![result_kmeans](./34_result_kmeans.png)  
   
   
 **Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
 **Elbow plot of Kmeans**  
   
-![elbow_kmeans](./img/32_elbow.png)  
+![elbow_kmeans](./32_elbow.png)  
   
   
   
 **Silhouette plot of Kmeans**  
   
-![silhouette_kmeans](./img/33_silhouettet_kmeans.png)  
+![silhouette_kmeans](./33_silhouettet_kmeans.png)  
   
   
   
 ## 6.Interpret results and plan for actions  
   
-![Dist](./img/41_Dist.png)  
+![Dist](./41_Dist.png)  
   
   
   

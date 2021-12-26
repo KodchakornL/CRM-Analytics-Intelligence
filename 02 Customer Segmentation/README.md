@@ -5,7 +5,7 @@
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/07%20Voice%20of%20Customers/02_Customer_Segmentation.ipynb)  
     
 ## Overview Customer segmentation
-![intro](./img/01_intro.png)
+![intro](./01_intro.png)
 Understanding customer behaviour would help seller or business to have a strong relationship with customers and result in new sales. Once the seller know how the customers decision process and action when purchasing goods and services, the seller can be more focus on the marketing efforts for current products and new product launches.  
   
 To understand their behaviour, we can use customer segmentation. This technique will divide customers into several groups based on their characteristics.  

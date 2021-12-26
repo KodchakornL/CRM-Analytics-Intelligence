@@ -61,7 +61,8 @@ The dataset received is just a part of Dunhumbly public dataset which is way mor
   
 ## Result  
 #### 1. Group1 : Food taste critic  
-Group 1 is a sentence about the taste of food. therefore think of this group as food taste critic   
+Group 1 is a sentence about the taste of food. therefore think of this group as food taste critic
+  
 Top 10 score text summary Extraction ▶ [62.8, 35.5, 33.625, 33.583333333333336, 33.583333333333336, 32.887573964497044, 29.23076923076923, 29.133333333333333, 28.8125, 28.0]  
   
 1. ร้านนี้ = 62.8  
@@ -77,7 +78,8 @@ Top 10 score text summary Extraction ▶ [62.8, 35.5, 33.625, 33.583333333333336
   
   
 #### 2. Group2 : Coffee lover  
-Group 2 is a sentence about coffee. So I think that this group is coffee lovers.    
+Group 2 is a sentence about coffee. So I think that this group is coffee lovers.  
+  
 Top 10 score text summary Extraction ▶ [54.285714285714285, 40.4, 36.142857142857146, 35.833333333333336, 35.69565217391305, 35.09090909090909, 34.89473684210526, 33.23076923076923, 32.388888888888886, 35.69565217391305]  
   
 1. ร้านใหญ่ = 54.285714285714285  
@@ -93,7 +95,8 @@ Top 10 score text summary Extraction ▶ [54.285714285714285, 40.4, 36.142857142
   
   
 #### 3. Group3 : Tea lover  
-Group 2 is a sentence about tea. So I think that this group is tea lovers. 
+Group 3 is a sentence about tea. So I think that this group is tea lovers.  
+  
 Top 10 score text summary Extraction ▶ [48.742569730224055, 40.72727272727273, 35.81818181818182, 35.21052631578947, 29.714285714285715, 29.166666666666668, 29.0, 28.764705882352942, 28.727272727272727, 28.35, 28.333333333333332]  
   
 1. ชานมไข่มุก = 48.742569730224055  
@@ -109,9 +112,10 @@ Top 10 score text summary Extraction ▶ [48.742569730224055, 40.72727272727273,
   
   
 #### 4. Group4 : Traveler  
-Group 1 is a sentence about recommending shops and places, so they think that this group is traveler.  
+Group 4 is a sentence about recommending shops and places, so they think that this group is traveler.  
+  
 Top 10 score text summary Extraction ▶ [82.0, 60.0, 54.875, 54.25, 47.44444444444444, 44.75, 43.4, 43.0, 42.7, 38.333333333333336]  
-
+  
 1. ร้านนี้ = 82.0  
 2. อิอิร้านนี้ = 60.0  
 3. ด้านหน้าร้าน = 54.875  

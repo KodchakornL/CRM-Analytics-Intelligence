@@ -93,7 +93,7 @@ Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of
 The silhouette value measures how similar a point is to its own cluster (cohesion) compared to other clusters (separation).  
 The range of the Silhouette value is between +1 and -1. A high value is desirable and indicates that the point is placed in the correct cluster. If many points have a negative Silhouette value, it may indicate that we have created too many or too few clusters.  
   
-![silhouette_kmeans](./11_silhouette_kmeans.png)  
+![silhouette_kmeans](./11_silhouettet_kmeans.png)  
     
   
   

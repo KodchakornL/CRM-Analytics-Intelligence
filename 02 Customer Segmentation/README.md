@@ -17,7 +17,7 @@ The dataset received is just a part of Dunhumbly public dataset which is way mor
   
   
   
-# Step Customer segmentation (In the case of customers who purchase more than once)  
+# Step of Customer segmentation (In the case of customers who purchase more than once)  
 ## 1. Install and import library Dependencies  
 ## 2. Load Data (Supermarket dataset)  
 ![load_data](./04_load_data.png)  
@@ -81,7 +81,7 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
 ![result_kmeans](./09_result_kmeans.png)  
   
 **Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
-**Elbow plot of Kmeans**  
+- Elbow plot of Kmeans  
 This is probably the most well-known method for determining the optimal number of clusters. It is also a bit naive in its approach.
 Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of k, and choose the k for which WSS becomes first starts to diminish. In the plot of WSS-versus-k, this is visible as an elbow.  
   
@@ -89,7 +89,7 @@ Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of
   
   
   
-**Silhouette plot of Kmeans**  
+- Silhouette plot of Kmeans  
 The silhouette value measures how similar a point is to its own cluster (cohesion) compared to other clusters (separation).  
 The range of the Silhouette value is between +1 and -1. A high value is desirable and indicates that the point is placed in the correct cluster. If many points have a negative Silhouette value, it may indicate that we have created too many or too few clusters.  
   
@@ -108,9 +108,9 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
   
   
-## 7. ผลลัพธ์จากการแบ่งกลุ่มของลูกค้าประจำ     (ลูกค้าที่มีการใช้บริการตั้งแต่    2 ครั้งขึ้นไ ป) โดยใช้  K-means Clustering สรุปได้ดังนี้   
-  
-1. Cluster 0 : More Ticket size & More Engagement  
+## 7. ผลลัพธ์จากการแบ่งกลุ่มของลูกค้าประจำ (ลูกค้าที่มีการใช้บริการตั้งแต่ 2 ครั้งขึ้นไป) โดยใช้ K-means Clustering สรุปได้ดังนี้  
+
+**1. Cluster 0 : More Ticket size & More Engagement**  
 - จำนวนลูกค้า ~ 813 คน (~19.95% ของลูกค้าประจำ และ ~13.33% ของลูกค้าทั้งหมด)  
 - รายรับจากลูกค้า (Total spend) ของกลุ่ม 0 เป็นลำดับที่ 3 ส่วนรายรับเฉลี่ยต่อคน (Ticket size) ของกลุ่ม 0 เป็นลำดับที่ 1  
 - ลูกค้ามีระยะเวลา ~ 20.04 วันต่อ transaction (~ 1 เดือน)  
@@ -130,7 +130,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
   
   
-2. Cluster 1 : Bargain Hunter  
+**2. Cluster 1 : Bargain Hunter**  
 - จำนวนลูกค้า ~ 1,046 คน (~ 25.67 % ของลูกค้าประจำ และ ~ 17.15 % ของลูกค้าทั้งหมด)  
 - รายรับจากลูกค้า (Total spend) น้อยที่สุด และรายรับเฉลี่ยต่อคน (Ticket size) เป็นลำดับที่ 3  
 - ลูกค้ามีระยะเวลา ~ 42 วันต่อ transaction (~ 1.5 เดือน)  
@@ -149,7 +149,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
   
   
-3. Cluster 2 : Upper Class  
+**3. Cluster 2 : Upper Class**  
 - มีจำนวนลูกค้า ~ 224 คน (~5.50% ของลูกค้าประจำ และ ~3.67% ของลูกค้าทั้งหมด)  
 - มีรายรับจากลูกค้า (Total spend) มากที่สุด และรายรับเฉลี่ยต่อคน (Ticket size) ของกลุ่ม 2 เป็นลำดับที่ 2  
 - ลูกค้ามีมาในช่วงระยะเวลา ~ 4.62 วันต่อ transaction (ลำดับที่ 4)  
@@ -165,7 +165,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
   
   
-4. Cluster 3 : Middle Class  
+**4. Cluster 3 : Middle Class**  
 - จำนวนลูกค้า ~ 1,992 คน (~ 48.88% ของลูกค้าประจำ และ ~ 32.66% ของลูกค้าทั้งหมด)  
 - รายรับจากลูกค้า (Total spend) ของกลุ่ม 3 สูงเป็นลำดับที่ 3 ส่วนรายรับเฉลี่ยต่อคน (Ticket size) ของกลุ่ม 3 น้อยที่สุด  
 - ลูกค้ามีระยะเวลา ~ 111 วันต่อ transaction (~ 9.5 เดือน) (ลำดับที่ 1)  
@@ -186,7 +186,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
   
 # Case One visit customer  
-## 3. Prepare Customer Single View**  
+## 3. Prepare Customer Single View  
 **Features**  
 * `Total_visit` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
 * `TotalSpend` : total spending over all 'active', representing *Monetary* in RFM analysis.  
@@ -254,7 +254,7 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
   
   
 ## 7.  ผลลัพธ์ของลูกค้าที่มาใช้บริการเพียง 1   1  ครั้งโดยใช้  K-means Clustering สรุปได้ดังนี้   
-1. Cluster 0 : Invisible man  
+**1. Cluster 0 : Invisible man**  
 - มีจำนวนลูกค้า ~ 853 คน (~42.14% ของลูกค้าที่เคยมาเพียง 1 ครั้ง และ ~13.99 % ของลูกค้าทั้งหมด)  
 - มีรายรับจากลูกค้า (Total spend) ของกลุ่ม 0 ในระดับน้อย ( ~ 4.16 )  
 - ความหลากหลายในการเลือกซื้อสินค้า (SKUs) น้อยอยู่ในระดับน้อย ( ~ 2 SKUs )  
@@ -268,7 +268,7 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
   
   
   
-2. Cluster 1 : Top invisible man  
+**2. Cluster 1 : Top invisible man**  
 - มีจำนวนลูกค้า ~ 882 คน (~43.58% ของลูกค้าที่เคยมาเพียง 1 ครั้ง และ ~14.46 % ของลูกค้าทั้งหมด)  
 - มีรายรับจากลูกค้า (Total spend) ของกลุ่ม 1 น้อยที่สุด ( ~ 3.93 )  
 - ความหลากหลายในการเลือกซื้อสินค้า (SKUs) น้อยอยู่ในระดับน้อย ( ~ 2 SKUs )  
@@ -282,7 +282,7 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
   
   
   
-3. Cluster 2 : Middle invisible man  
+**3. Cluster 2 : Middle invisible man**  
 - มีจำนวนลูกค้า ~ 230 คน (~11.36% ของลูกค้าที่เคยมาเพียง 1 ครั้ง และ ~3.77 % ของลูกค้าทั้งหมด)  
 - มีรายรับจากลูกค้า (Total spend) ของกลุ่ม 2 อยู่ในอันดับที่ 2 ( ~ 27.58 )  
 - ความหลากหลายในการเลือกซื้อสินค้า (SKUs) มากเป็นอันดับที่ 2 ( ~ 13.6 SKUs )  
@@ -293,7 +293,7 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
   
   
   
-4. Cluster 3 : Need to win back  
+**4. Cluster 3 : Need to win back**  
 - มีจำนวนลูกค้า ~ 59 คน (~ 2.92% ของลูกค้าที่เคยมาเพียง 1 ครั้ง และ ~ 0.97% ของลูกค้าทั้งหมด)  
 - มีรายรับจากลูกค้า (Total spend)  มากที่สุด ( ~ 66.8 )  
 - ความหลากหลายในการเลือกซื้อสินค้า (SKUs) มากที่สุด ( ~ 26.93 SKUs )  

@@ -66,8 +66,7 @@ From running to compare the models, it was found that the model with good perfor
   
   
 2. Use Spectral Clustering  
-The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.  
-**therefore choose to use Kmeans**  
+The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.   
     
 ![sc](./07_sc.png)  
   
@@ -75,6 +74,7 @@ The first model to run was sc. After the Plot PCA Run sc model, there was no dif
   
 3. Use KMeans Clustering  
 The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was found that the differences were clearly visible between the groups.  
+**therefore choose to use Kmeans** 
   
 ![kmeans](./08_kmeans.png)  
 

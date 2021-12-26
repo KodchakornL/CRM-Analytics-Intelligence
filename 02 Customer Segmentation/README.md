@@ -61,7 +61,7 @@ Before coming to this step data is Basket id level, item id can't be used for cl
 1. compare model performance  
 From running to compare the models, it was found that the model with good performance was SC and Kmeans.  
   
-![Compare_model](./06_Compare_model_PCA.png)  
+![Compare_model](./06_Compare_model.png)  
   
   
   
@@ -69,7 +69,7 @@ From running to compare the models, it was found that the model with good perfor
 The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.  
 **therefore choose to use Kmeans**  
     
-![sc](./07_sc_PCA.png)  
+![sc](./07_sc.png)  
   
   
   

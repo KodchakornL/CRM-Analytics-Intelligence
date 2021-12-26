@@ -20,7 +20,7 @@ The dataset received is just a part of Dunhumbly public dataset which is way mor
 # Step Customer segmentation (In the case of customers who purchase more than once)  
 ## 1. Install and import library Dependencies**  
 ## 2. Load Data (Supermarket dataset)**  
-![load_data](./04_load_data)  
+![load_data](./04_load_data.png)  
 ## 3. Prepare Customer Single View**  
 **Features**  
 * `Total_visit` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
@@ -41,7 +41,7 @@ The dataset received is just a part of Dunhumbly public dataset which is way mor
 **Explore data**
 1. Correlation Feature  
 
-![corr](./02_corr.png)    
+![corr](./02_Corr.png)    
   
   
   

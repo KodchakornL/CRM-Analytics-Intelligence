@@ -1,12 +1,14 @@
 # Voice of Customers
 [![](https://img.shields.io/badge/-NLP-blue)](#) [![](https://img.shields.io/badge/-Text-Summarization-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)   
-
-## Dataset
-Customer reviews of 3 restaurants from Wongnai Reviews - Small
-
+  
 **Notebooks:** [Voice of Customers](./07-Voice-of-Customers.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/07%20Voice%20of%20Customers/07_Voice_of_Customers.ipynb)  
   
+  
+## Dataset   
+Supermarket dataset contains 956K rows of sales transactions at sales-item level.  
+The dataset received is just a part of Dunhumbly public dataset which is way more bigger. There seems to be historical data from only 2 stores from year 2006 to 2008.  
+    
 ## Step Voice of customers
 **1. Install and import library**  
 **2. Load data "Wongnai Reviews - Small.csv" and module_url**  

@@ -19,7 +19,7 @@ The results showed that the respondents had a score of used or never used on whi
   
 ![top_10](./01_top_10.png)  
   
-![Purchase_Usage_Ranking](./03_Purchase_Usage_Rankinge.png)  
+![Purchase_Usage_Ranking](./03_Purchase_Usage_Ranking.png)  
   
   
   
@@ -46,8 +46,7 @@ learning. The apriori algorithm has been designed to operate on databases contai
   
 ![filter_rule_Recommend_1_item_based_on_2_times](./10_filter_rule_Recommend_1_item_based_on_2_times.png)
   
-![filter_rule_life&confidence](./11_filter_rule_life&confidence_Recommend_1_item_based_on_1_times
-.png)
+![filter_rule_life&confidence](./11_filter_rule_life&confidence.png)
   
 ![association-rules](./05_association_rules.png)
   

@@ -88,13 +88,13 @@ Comparison Model by **Accuracy score**
 ##  3.Model XGBoost
 #### **1. Before hyper parameter tunning**  
   
-**RFM  SMOTE**  
+**RFM Dataset**  
 AUC score training set = 0.7276  
 AUC score test set = 0.7043  
   
 ![confusion_metrix_rfm](./13_confusion_metrix_rfm.png)  
   
-**CLV  SMOTE**  
+**CLV Dataset**  
 AUC score training set = 0.7276  
 AUC score test set = 0.7043  
 ![confusion_metrix_clv](./14_confusion_metrix_clv.png)  

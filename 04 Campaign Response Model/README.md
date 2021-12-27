@@ -2,22 +2,13 @@
 [![](https://img.shields.io/badge/-Classification-blue)](#) [![](https://img.shields.io/badge/-RFM-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Logistic--Regression-blue)](#) [![](https://img.shields.io/badge/-XGBoost-blue)](#) [![](https://img.shields.io/badge/-LightGBM-blue)](#) [![](https://img.shields.io/badge/-Optuna-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
   
 **Notebooks:** [Customers Segmentation](./03_Product_Recommendation.ipynb)  
-**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/02%20Customer%20Segmentation/04_Campaign_Response_Model_Evaluate_by-Auctrain-Auctest.ipynb) 
+**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/04%20Campaign%20Response%20Model/04_Campaign_Response_Model_Evaluate_by-Auctrain-Auctest.ipynb) 
 
 ## Dataset
 A Retail-like dataset.There are 2 datasets: 
 1. Retail_Data_Response dataset consisting of customer_id, response => Customer level 
 2. Retail_Data_Transactions dataset consisting of customer_id, trans_date, tran_amount => Transaction level. The table doesn't have trans_id, so we use tran_date as an identifier instead. If we want these 2 tables to join together, we can't do it at different levels. We have to make it a Customer level so that we can combine them to get into the model.
 
-## What I did
-* Additional feature engineering
-* Cross-validation training sets using StratifiedKFold to evaluate models
-* Evaluate models choosing from a combination of 
-  * Models: LogisticRegression, XGBoost, LightGBM
-  * Dataset: using all features or a selective set
-  * Resampling: undersampling, oversampling, SMOTE, SMOTE+TOMEK Links, SMOTE+ENN
-* Feature selection using Recursive Feature Elimination, Lasso, Tree-based
-* Hyperparameter tuning using Optuna  
 
 ## Step of Campaign Response Model
   

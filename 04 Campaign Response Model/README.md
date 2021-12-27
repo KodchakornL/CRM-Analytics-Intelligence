@@ -35,7 +35,8 @@ A Retail-like dataset.There are 2 datasets:
 * `AOU` : See how long this customer has been a customer., representing *Tenure*.  
 * `Conversion_rate` : percentage of visitors to your channel that complete a desired goal (a conversion) out of the total number of visitors., representing *conversion*.  
   
-**Correlation**
+**Correlation**  
+  
 ![corr](./03_corr.png)
   
 2. Evaluate models (1st Round)

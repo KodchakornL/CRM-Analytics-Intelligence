@@ -58,7 +58,7 @@ A Retail-like dataset.There are 2 datasets:
   
   
 **2.3  Model Selection**  
-Comparison Model by **Accuracy score**
+Comparison Model by **Accuracy score**  
     - LogisticRegression  
     - DecisionTreeClassifier  
     - KNeighborsClassifier  

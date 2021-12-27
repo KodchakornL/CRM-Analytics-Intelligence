@@ -15,13 +15,13 @@ A Retail-like dataset.There are 2 datasets:
 ### 1.Explore data
    1. EDA  
   
-    ![EDA](./01_EDA.png)  
+![EDA](./01_EDA.png)  
   
   
   
    2. Cohort Analysis  
   
-    ![cohort](./02_cohort.png)  
+![cohort](./02_cohort.png)  
   
   
   

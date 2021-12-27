@@ -1,5 +1,5 @@
 # A/B Testing
-[![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-SPSS-green)](#) [![](https://img.shields.io/badge/-Excel-violet)](#)  
+[![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-A/B--Testing-blue)](#) [![](https://img.shields.io/badge/-SPSS-green)](#) [![](https://img.shields.io/badge/-Excel-violet)](#) [![](https://img.shields.io/badge/-Presentation-blue)](#)  
 
 ## Overview  
 Conduct an A/B Testing by Survey method on surveying whether you prefer a smartphone with a rounded edge or a square edge.    

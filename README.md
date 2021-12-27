@@ -1,5 +1,6 @@
-# BADS 7105 - CRM Analytics and Intelligence
-
+## BADS 7105 - CRM Analytics and Intelligence  
+Presented by Kodchakorn Lernsuksarn 6310412001  
+  
 - [x] [01 Customer Lifetime Value (CLV) Dashboard](./01%20Customer%20Lifetime%20Value%20(CLV)%20Dashboard)  
 [![](https://img.shields.io/badge/-Dashboard-blue)](#) [![](https://img.shields.io/badge/-Power--BI-green)](#)  
 - [x] [02 Customer Segmentation](./02%20Customer%20Segmentation)  

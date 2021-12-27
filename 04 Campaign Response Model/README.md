@@ -68,7 +68,7 @@ Comparison Model by **Accuracy score**
   
 ![model-selection](./08_model_selection.png)  
   
-#### **RFM**  
+#### **RFM Dataset** 
   
 ![model-selection](./09_model_selection_rfm.png)  
   
@@ -76,7 +76,7 @@ Comparison Model by **Accuracy score**
 ![roc_rfm](./11_roc_rfm.png)  
   
   
-#### **CLV**  
+#### **CLV Dataset** 
   
 ![model-selection](./10_model_selection_clv.png)
 

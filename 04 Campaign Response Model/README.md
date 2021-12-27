@@ -26,7 +26,7 @@ A Retail-like dataset.There are 2 datasets:
   
   
 ## 2 Feature Engineering  
-1. **Features**
+**1. Features**
   
 * `recency` : the range from the last day that the customer arrived with the current day, representing *Recency* in RFM analysis.  
 * `Frequency` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
@@ -39,15 +39,15 @@ A Retail-like dataset.There are 2 datasets:
   
 ![corr](./03_corr.png)
   
-2. Evaluate models (1st Round)
+**2. Evaluate models (1st Round)**
 
-2.1 Creating train and test dataset
+**2.1 Creating train and test dataset**
   
 ![split_train_test_dataset](./06_split_train_test_dataset.png)
   
   
   
-2.2 Use 'SMOTE' fix SMOTE (synthetic minority oversampling technique) is one of the most commonly used oversampling methods to solve the imbalance problem. It aims to balance class distribution by randomly increasing minority class examples by replicating them.
+**2.2 Use 'SMOTE' fix SMOTE (synthetic minority oversampling technique) is one of the most commonly used oversampling methods to solve the imbalance problem. It aims to balance class distribution by randomly increasing minority class examples by replicating them.**
   
 ![unbalanced](./04_unbalanced.png)  
   
@@ -57,7 +57,7 @@ A Retail-like dataset.There are 2 datasets:
   
   
   
-2.3  Model Selection  
+**2.3  Model Selection**  
 Comparison Model by **Accuracy score**
     - LogisticRegression  
     - DecisionTreeClassifier  
@@ -68,17 +68,17 @@ Comparison Model by **Accuracy score**
   
 ![model-selection](./08_model_selection.png)  
   
-**RFM**  
+#### **RFM**  
   
-![model-selection](./09_model_selection.png)  
+![model-selection](./09_model_selection_rfm.png)  
   
   
 ![roc_rfm](./11_roc_rfm.png)  
-
   
-**CLV**  
   
-![model-selection](./10_model_selection.png)
+#### **CLV**  
+  
+![model-selection](./10_model_selection_clv.png)
 
   
 ![roc_clv](./12_roc_clv.png)

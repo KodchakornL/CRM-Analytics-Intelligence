@@ -1,4 +1,6 @@
 # Design Thinking
+[![](https://img.shields.io/badge/-Design-thinking-blue)](#) [![](https://img.shields.io/badge/-Presentation-blue)](#)  
+  
 Product Application : "All in one NIDA" Application  
 Design Thinking has five stage.  
 1) Empathize  

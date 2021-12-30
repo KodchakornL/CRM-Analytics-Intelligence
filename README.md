@@ -4,7 +4,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 - [x] [01 Customer Lifetime Value (CLV) Dashboard](./01%20Customer%20Lifetime%20Value%20(CLV)%20Dashboard)  
 [![](https://img.shields.io/badge/-Dashboard-blue)](#) [![](https://img.shields.io/badge/-Power--BI-green)](#)  
   
-|  | Detail |
+|  |  |
 | --- | --- | --- | --- |
 | Objective | Using Supermarket Data for data visualization Perform a Customer Lifetime Value (CLV) analysis. |
 | Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008.  |

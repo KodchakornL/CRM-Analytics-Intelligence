@@ -10,9 +10,17 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 | Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008.  |
 | Technique | Power BI Make Dashboard  |
 | Performance Measurement | Find the problem , find reason, Solve the problem by finding an action  |
-
+  
 - [x] [02 Customer Segmentation](./02%20Customer%20Segmentation)  
 [![](https://img.shields.io/badge/-K--Means-orange)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
+  
+|  | Detail |
+| --- | --- |
+| Objective | Using Supermarket Data for data visualization Perform a Customer Lifetime Value (CLV) analysis. |
+| Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008.  |
+| Technique | Power BI Make Dashboard  |
+| Performance Measurement | Find the problem , find reason, Solve the problem by finding an action  |
+  
 - [x] [03 Product Recommendation](./03%20Product%20Recommendation)  
  [![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-Market--Basket-orange)](#) [![](https://img.shields.io/badge/-Collaborative--Filtering-orange)](#) [![](https://img.shields.io/badge/-Matrix--Factorization-orange)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) 
 - [x] [04 Campaign Response Model](./04%20Campaign%20Response%20Model)  

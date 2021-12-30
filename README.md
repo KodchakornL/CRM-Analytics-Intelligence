@@ -3,6 +3,15 @@ Presented by Kodchakorn Lernsuksarn 6310412001
   
 - [x] [01 Customer Lifetime Value (CLV) Dashboard](./01%20Customer%20Lifetime%20Value%20(CLV)%20Dashboard)  
 [![](https://img.shields.io/badge/-Dashboard-blue)](#) [![](https://img.shields.io/badge/-Power--BI-green)](#)  
+  
+| Status | Current | Previous | Before |
+| --- | --- | --- | --- |
+| Objective | Customer Lifetime Value |
+| Dataset | ✅ | ❌ | ✅ |
+| Technique | ✅ | ❌ | ❌ |
+| Performance | ❌ | ✅ | |
+| Measurement | ❌ | ✅ | |
+
 - [x] [02 Customer Segmentation](./02%20Customer%20Segmentation)  
 [![](https://img.shields.io/badge/-K--Means-orange)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
 - [x] [03 Product Recommendation](./03%20Product%20Recommendation)  

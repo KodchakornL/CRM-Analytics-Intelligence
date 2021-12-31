@@ -21,10 +21,10 @@ Supermarket dataset contains 956K rows of sales transactions at sales-item level
   
   
 # Step of Customer segmentation (Case customers purchase more than once)  
-#### 1. Install and import library Dependencies  
-#### 2. Load Data (Supermarket dataset)  
+### 1. Install and import library Dependencies  
+### 2. Load Data (Supermarket dataset)  
 ![load_data](./04_load_data.png)  
-#### 3. Prepare Customer Single View  
+### 3. Prepare Customer Single View  
 **Features**  
 * `Total_visit` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
 * `Ticket_size` : total spending over all transactions, representing *Monetary* in RFM analysis.  
@@ -54,13 +54,13 @@ Supermarket dataset contains 956K rows of sales transactions at sales-item level
   
   
   
-## 4. Generate Customer Single View  
+### 4. Generate Customer Single View  
 Before coming to this step data is Basket id level, item id can't be used for clustering segmentation, need to do customer single view as 1 record 1 customer use pycaret to setup environment with ignore_features ignore feature.  
 ![Cust_single_view](./05_Cust_single_view.png)  
   
   
   
-## 5. Customer segmentation  
+### 5. Customer segmentation  
 1. compare model performance  
 From running to compare the models, it was found that the model with good performance was SC and Kmeans.  
   
@@ -100,7 +100,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
     
   
   
-## 6.Interpret results and plan for actions  
+### 6.Interpret results and plan for actions  
   
 ![Dist_1](./25_Dist_1.png)  
   
@@ -111,7 +111,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
   
   
-## 7. ผลลัพธ์จากการแบ่งกลุ่มของลูกค้าประจำ (ลูกค้าที่มีการใช้บริการตั้งแต่ 2 ครั้งขึ้นไป) โดยใช้ K-means Clustering สรุปได้ดังนี้  
+### 7. ผลลัพธ์จากการแบ่งกลุ่มของลูกค้าประจำ (ลูกค้าที่มีการใช้บริการมากกว่า 1 ครั้งขึ้นไป) โดยใช้ K-means Clustering สรุปได้ดังนี้  
 
 **1. Cluster 0 : More Ticket size & More Engagement**  
 - จำนวนลูกค้า ~ 813 คน (~19.95% ของลูกค้าประจำ และ ~13.33% ของลูกค้าทั้งหมด)  
@@ -189,7 +189,7 @@ __
 __
 __
 # Case One visit customer  
-## 1. Prepare Customer Single View  
+### 1. Prepare Customer Single View  
 **Features**  
 * `Total_visit` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
 * `TotalSpend` : total spending over all 'active', representing *Monetary* in RFM analysis.  
@@ -208,13 +208,13 @@ __
   
   
   
-## 2. Generate Customer Single View  
+### 2. Generate Customer Single View  
   
 ![Cust_sinview](./28_Cust_sinview.png)  
   
   
   
-## 3. Customer segmentation  
+### 3. Customer segmentation  
 1. compare model performance  
 From running to compare the models, it was found that the model with good performance was sc, ap and K-means.  
   
@@ -250,13 +250,13 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
   
   
   
-## 4.Interpret results and plan for actions  
+### 4.Interpret results and plan for actions  
   
 ![Dist](./41_Dist.png)  
   
   
   
-## 5.  ผลลัพธ์ของลูกค้าที่มาใช้บริการเพียง 1   1  ครั้งโดยใช้  K-means Clustering สรุปได้ดังนี้   
+### 5.  ผลลัพธ์ของลูกค้าที่มาใช้บริการเพียง 1   1  ครั้งโดยใช้  K-means Clustering สรุปได้ดังนี้   
 **1. Cluster 0 : Invisible man**  
 - มีจำนวนลูกค้า ~ 853 คน (~42.14% ของลูกค้าที่เคยมาเพียง 1 ครั้ง และ ~13.99 % ของลูกค้าทั้งหมด)  
 - มีรายรับจากลูกค้า (Total spend) ของกลุ่ม 0 ในระดับน้อย ( ~ 4.16 )  

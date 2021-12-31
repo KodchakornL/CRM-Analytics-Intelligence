@@ -18,12 +18,18 @@ RFM as this method will use customer behavior such as how much the customer’s 
 ## Dataset   
 Supermarket dataset contains 956K rows of sales transactions at sales-item level. The dataset received is just a part of Dunhumbly public dataset which is way more bigger. There seems to be historical data from only 2 stores from year 2006 to 2008.  
   
+## Explore Data
+The information is divided into two groups :  
+1. Case customers purchase more than once  
+2. Case One visit customer  
   
+![proportion_cust](./03_proportion_cust.png)  
   
 # Step of Customer segmentation (Case customers purchase more than once)  
 ### 1. Install and import library Dependencies  
 ### 2. Load Data (Supermarket dataset)  
 ![load_data](./04_load_data.png)  
+  
 ### 3. Prepare Customer Single View  
 **Features**  
 * `Total_visit` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
@@ -41,17 +47,9 @@ Supermarket dataset contains 956K rows of sales transactions at sales-item level
 * `'Conversion_rate'` : percentage of visitors to your channel that complete a desired goal (a conversion) out of the total number of visitors., representing *conversion*.    
 * `'diff'` : diffenrence of 'ToTalQUANTITY_TotalVisits' and 'TotalSKUs_TotalVisits'., representing *Quantity*.  
   
-**Explore data**
-1. Correlation Feature  
-
+**Correlation Feature**  
+  
 ![corr](./02_Corr.png)    
-  
-  
-  
-2. Proportion of customers who use the service more than once and customers who use the service only once.  
-
-![proportion_cust](./03_proportion_cust.png)  
-  
   
   
 ### 4. Generate Customer Single View  

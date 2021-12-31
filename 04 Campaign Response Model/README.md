@@ -4,9 +4,9 @@
 **Notebooks:** [Customers Segmentation](./03_Product_Recommendation.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/04%20Campaign%20Response%20Model/04_Campaign_Response_Model_Evaluate_by_Auctrain_Auctest.ipynb)  
   
-**Objective** :	Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.
-**Technique** :	Classification (an supervised machine learning technique)
-**Performance Measurement** :	AUC, ROC Curve, Confusion metrix
+**Objective** :	Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.  
+**Technique** :	Classification (an supervised machine learning technique)  
+**Performance Measurement** :	AUC, ROC Curve, Confusion metrix  
   
 ## Dataset
 A Retail-like dataset.There are 2 datasets: 

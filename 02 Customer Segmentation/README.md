@@ -1,6 +1,10 @@
 # Customer Segmentation
 [![](https://img.shields.io/badge/-K--Means-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
   
+**Objective** : The segmentation of consumers according to specific characteristics. Because we can't answer everyone's problems, we have to choose which group of customers we can answer them well.  
+Technique** : Clustering (an unsupervised machine learning technique)  
+Performance Measurement : Using Silhouette, Calinski-Harabasz, Davies-Bouldin, Homogeneity, Rand Index and Completeness compare model  
+  
 **Notebooks:** [Customers Segmentation](./02_Customer_Segmentation.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/02%20Customer%20Segmentation/02_Customer_Segmentation.ipynb)  
   
@@ -12,8 +16,7 @@ To understand their behaviour, we can use customer segmentation. This technique 
 RFM as this method will use customer behavior such as how much the customer’s spending on the products, how often the customer buy the product, and how long it is since the last purchase the products.  
   
 ## Dataset   
-Supermarket dataset contains 956K rows of sales transactions at sales-item level.  
-The dataset received is just a part of Dunhumbly public dataset which is way more bigger. There seems to be historical data from only 2 stores from year 2006 to 2008.  
+Supermarket dataset contains 956K rows of sales transactions at sales-item level. The dataset received is just a part of Dunhumbly public dataset which is way more bigger. There seems to be historical data from only 2 stores from year 2006 to 2008.  
   
   
   

@@ -37,7 +37,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 |  | Detail |
 | --- | --- |
 | Objective | Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.  |
-| Dataset | **Retail_Data_Response dataset** consisting of customer_id, response => Customer level, **Retail_Data_Transactions dataset** consisting of customer_id, trans_date, tran_amount => Transaction level. |
+| Dataset | **Retail_Data_Response dataset** consisting of customer_id, response => Customer level                                              **Retail_Data_Transactions dataset** consisting of customer_id, trans_date, tran_amount => Transaction level. |
 | Technique | Classification (an supervised machine learning technique) |
 | Performance Measurement | AUC, ROC Curve, Confusion metrix |
   

@@ -2,7 +2,7 @@
 Presented by Kodchakorn Lernsuksarn 6310412001  
   
 - [x] [01 Customer Lifetime Value (CLV) Dashboard](./01%20Customer%20Lifetime%20Value%20(CLV)%20Dashboard)  
-[![](https://img.shields.io/badge/-Dashboard-green)](#) [![](https://img.shields.io/badge/-Power--BI-blue)](#)  
+[![](https://img.shields.io/badge/-Power--BI-blue)](#) [![](https://img.shields.io/badge/-Dashboard-green)](#)  
   
 |  | Detail |
 | --- | --- |
@@ -12,7 +12,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 | Performance Measurement | Find the Problem , Find the Reason, Solve the problem by Find the Action |
   
 - [x] [02 Customer Segmentation](./02%20Customer%20Segmentation)  
-[![](https://img.shields.io/badge/-K--Means-green)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
+[![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-K--Means-green)](#) 
   
 |  | Detail |
 | --- | --- |
@@ -22,7 +22,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 | Performance Measurement | Using Silhouette,	Calinski-Harabasz,	Davies-Bouldin,	Homogeneity,	Rand Index and	Completeness compare model|
   
 - [x] [03 Product Recommendation](./03%20Product%20Recommendation)  
- [![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-Market--Basket-green)](#) [![](https://img.shields.io/badge/-Collaborative--Filtering-green)](#) [![](https://img.shields.io/badge/-Matrix--Factorization-green)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) 
+ [![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-Market--Basket-green)](#) [![](https://img.shields.io/badge/-Matrix--Factorization-green)](#) [![](https://img.shields.io/badge/-Collaborative--Filtering-green)](#)  
    
 |  | Detail |
 | --- | --- |
@@ -32,7 +32,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 | Performance Measurement | Human Evaluation |
   
 - [x] [04 Campaign Response Model](./04%20Campaign%20Response%20Model)  
-[![](https://img.shields.io/badge/-Classification-green)](#) [![](https://img.shields.io/badge/-Logistic--Regression-green)](#) [![](https://img.shields.io/badge/-XGBoost-green)](#) [![](https://img.shields.io/badge/-SMOTE-orange)](#) [![](https://img.shields.io/badge/-GridsearchCV-orange)](#) [![](https://img.shields.io/badge/-RFM-orange)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) 
+[![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Classification-green)](#) [![](https://img.shields.io/badge/-Logistic--Regression-green)](#) [![](https://img.shields.io/badge/-XGBoost-green)](#) [![](https://img.shields.io/badge/-SMOTE-orange)](#) [![](https://img.shields.io/badge/-GridsearchCV-orange)](#) [![](https://img.shields.io/badge/-RFM-orange)](#)  
   
 |  | Detail |
 | --- | --- |
@@ -42,7 +42,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 | Performance Measurement | AUC, ROC Curve, Confusion metrix |
   
 - [x] [05 AB Testing](./05%20AB%20Testing)  
-[![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-A/B--Testing-green)](#) [![](https://img.shields.io/badge/-SPSS-blue)](#) [![](https://img.shields.io/badge/-Excel-blue)](#) [![](https://img.shields.io/badge/-Presentation-blue)](#)  
+[![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-SPSS-blue)](#) [![](https://img.shields.io/badge/-Excel-blue)](#) [![](https://img.shields.io/badge/-Presentation-blue)](#) [![](https://img.shields.io/badge/-A/B--Testing-green)](#)  
   
 |  | Detail |
 | --- | --- |
@@ -62,17 +62,17 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 | Performance Measurement | Find the Problem , Find the Reason, Solve the problem by Find the Action |
   
 - [x] [07 Voice of Customers](./07%20Voice%20of%20Customers)  
-[![](https://img.shields.io/badge/-NLP-green)](#) [![](https://img.shields.io/badge/-Text--processing-green)](#) [![](https://img.shields.io/badge/-Text--Summarization-green)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
+(#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-NLP-green)](#) [![](https://img.shields.io/badge/-Text--processing-green)](#) [![](https://img.shields.io/badge/-Text--Summarization-green)]  
   
 |  | Detail |
 | --- | --- |
 | Objective | Used Voice of Custome (voc) describes customer’s feedback about their experience with a product or service. VOC stands for the customer experience and mainly focuses on the customer’s Needs and expectations which depend on the satisfaction level, Voice of consumer acts as a strong communication platform for the customers to provide their feedback on any product they find requires improvement. |
 | Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008. |
-| Technique | Clustering using KMeans, Agglomorative Clustering with cosine similarity, Text Preprocessing, tf-idf, text-summary (Extraction) |
+| Technique | Clustering using KMeans, Agglomorative Clustering with cosine similarity, Text Preprocessing, **I added to use tf-idf and text summarization generated by tf-idf score for extractive summarization. (Extractive summarization aims at identifying the salient information that is then extracted and grouped together to form a concise summary. Abstractive summary generation rewrites the entire document by building internal semantic representation, and then a summary is created using natural language processing)**  |
 | Performance Measurement | Perplexity, ROUGE,  Human Evaluation |
   
 - [x] [08 Design Thinking](./08%20Design%20Thinking)  
-[![](https://img.shields.io/badge/-Design--thinking-green)](#) [![](https://img.shields.io/badge/-Presentation-blue)](#)  
+[![](https://img.shields.io/badge/-Presentation-blue)](#) [![](https://img.shields.io/badge/-Design--thinking-green)](#)  
   
 |  | Detail |
 | --- | --- |

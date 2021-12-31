@@ -1,12 +1,12 @@
 # Campaign Response Model
-[![](https://img.shields.io/badge/-Classification-green)](#) [![](https://img.shields.io/badge/-RFM-orange)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Logistic--Regression-green)](#) [![](https://img.shields.io/badge/-XGBoost-green)](#) [![](https://img.shields.io/badge/-SMOTE-orange)](#) [![](https://img.shields.io/badge/-GridsearchCV-orange)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
+[![](https://img.shields.io/badge/-Classification-orange)](#) [![](https://img.shields.io/badge/-RFM-blue)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Logistic--Regression-orange)](#) [![](https://img.shields.io/badge/-XGBoost-orange)](#) [![](https://img.shields.io/badge/-SMOTE-blue)](#) [![](https://img.shields.io/badge/-GridsearchCV-orange)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
   
 **Notebooks:** [Customers Segmentation](./03_Product_Recommendation.ipynb)  
-**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/04%20Campaign%20Response%20Model/04_Campaign_Response_Model_Evaluate_by_Auctrain_Auctest.ipynb)  
+**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/04%20Campaign%20Response%20Model/04_Campaign_Response_Model_Evaluate_by_Auctrain_Auctest.ipynb) 
   
-**Objective** :	Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.  
-**Technique** :	Classification (an supervised machine learning technique)  
-**Performance Measurement** :	AUC, ROC Curve, Confusion metrix  
+**Objective** :	Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.
+**Technique** :	Classification (an supervised machine learning technique)
+**Performance Measurement** :	AUC, ROC Curve, Confusion metrix
   
 ## Dataset
 A Retail-like dataset.There are 2 datasets: 
@@ -16,7 +16,7 @@ A Retail-like dataset.There are 2 datasets:
 
 # Step of Campaign Response Model
   
-### 1.Explore data  
+## 1.Explore data  
   
 **1.1 EDA**  
   
@@ -24,15 +24,14 @@ A Retail-like dataset.There are 2 datasets:
   
   
   
-**1.2 Cohort Analysis**  
+**2.2 Cohort Analysis**  
   
 ![cohort](./02_cohort.png)  
   
   
   
-### 2 Feature Engineering  
-  
-**2.1 Features**
+## 2 Feature Engineering  
+#### 2.1 Features  
   
 * `recency` : the range from the last day that the customer arrived with the current day, representing *Recency* in RFM analysis.  
 * `Frequency` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
@@ -45,15 +44,15 @@ A Retail-like dataset.There are 2 datasets:
   
 ![corr](./03_corr.png)
   
-**2.2 Evaluate models (1st Round)**
+#### 2.2 Evaluate models (1st Round)
 
-   **2.2.1 Creating train and test dataset**
+**2.2.1 Creating train and test dataset**
   
 ![split_train_test_dataset](./06_split_train_test_dataset.png)
   
   
   
-   **2.2.2 Use 'SMOTE' fix SMOTE (synthetic minority oversampling technique) is one of the most commonly used oversampling methods to solve the imbalance problem. It aims to balance class distribution by randomly increasing minority class examples by replicating them.**
+**2.2.2 Use 'SMOTE' fix SMOTE (synthetic minority oversampling technique) is one of the most commonly used oversampling methods to solve the imbalance problem. It aims to balance class distribution by randomly increasing minority class examples by replicating them.**
   
 ![unbalanced](./04_unbalanced.png)  
   
@@ -63,7 +62,7 @@ A Retail-like dataset.There are 2 datasets:
   
   
   
-   **2.2.3  Model Selection**  
+**2.2.3  Model Selection**  
 Comparison Model by **Accuracy score**  
     - LogisticRegression  
     - DecisionTreeClassifier  
@@ -91,8 +90,8 @@ Comparison Model by **Accuracy score**
   
 
   
-### 3. Model XGBoost
-#### **3.1 Before hyper parameter tunning**  
+##  3.Model XGBoost
+#### **1. Before hyper parameter tunning**  
   
 **RFM Dataset**  
 AUC score training set = 0.7276  
@@ -106,10 +105,10 @@ AUC score test set = 0.7043
 ![confusion_metrix_clv](./14_confusion_metrix_clv.png)  
   
   
-#### **3.2 Hyperparameter Tunning Model**  
+#### **2. Hyperparameter Tunning Model**  
 Use GridSearchCV()  
   
-##### **RFM  Dataset**  
+#### **RFM  Dataset**  
 AUC score training set = 0.7807
 AUC score test set = 0.7201  
   
@@ -121,7 +120,7 @@ AUC score test set = 0.7201
   
   
   
-##### **CLV  Dataset**  
+#### **CLV  Dataset**  
 AUC score training set = 0.7886  
 AUC score test set = 0.7436  
   
@@ -132,7 +131,7 @@ AUC score test set = 0.7436
 ![Hyperparameter Tunning Model](./20_GridseachCV_roc_clv.png)  
   
   
-### 4.Result
+## 4.Result
 From the campaign response data, the results were obtained after the run model. Better results were obtained after using model selection and hyperparameter tuning to determine the best parameters and the AUC score was greatly improved.  
   
 Targeting the most potential customers will help to maximize campaign’s ROI. To put it in numerical terms, if targeting the wrong customers can have a negative impact on reputation.

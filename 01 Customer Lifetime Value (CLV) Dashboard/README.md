@@ -1,20 +1,20 @@
 # CLV Dashboard
 [![](https://img.shields.io/badge/-Dashboard-blue)](#) [![](https://img.shields.io/badge/-Power--BI-blue)](#)  
   
-Objective	: Using Supermarket Data for data visualization Perform a Customer Lifetime Value (CLV) analysis.  
-Dataset :	Supermarket data contains 956K historical data from only 2 stores from 2006 to 2008.  
-Technique	: Power BI Make Dashboard.  
-Performance Measurement	: Find the Problem , Find the Reason, Solve the problem by Find the Action.  
+**Objective**	: Using Supermarket Data for data visualization Perform a Customer Lifetime Value (CLV) analysis.  
+**Dataset** :	Supermarket data contains 956K historical data from only 2 stores from 2006 to 2008.  
+**Technique**	: Power BI Make Dashboard.  
+**Performance Measurement**	: Find the Problem , Find the Reason, Solve the problem by Find the Action.  
   
 ## About This DashBoard
 This dashboard generated from 2016 - 2017 supermarket sales dataset.  
 This dashboard is made for stakeholders such as marketing, sales, executives, etc. to support decision-making quickly and comprehensively to visualize design thinking principles.  
-1.See is to let the dashboard user see the Problems.  
-2.Think is to make dashboard users see Reasons.  
-3.Do is to make dashboard users see Actions.  
+1.**See** is to let the dashboard user see the Problems.  
+2.**Think** is to make dashboard users see Reasons.  
+3.**Do** is to make dashboard users see Actions.  
 for their decision The dashboard also has slicers that can drill down into focus timeframes such as Year, Quarterly, Monthly, Weekly, Daily, Hourly.  
-
-
+  
+  
 ## Sales
 ![SALES ANALYTIC](./SALES_ANALYTIC_1.png)
 

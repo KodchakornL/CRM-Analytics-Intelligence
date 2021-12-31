@@ -8,8 +8,7 @@ Since Apple released the iPhone 12, there has been much debate as iPhones revert
 ![intro](./1_intro.png)
 
 ## Dataset   
-We prepared 2 types of Google Forms with exactly the same questions except the images of Pad-Kra-Prao with (A) or wihout (B) Long Beans.  
-The dish image is displayed right at the question asking "How likely do you want to have this dish?" with a 7-scale response.  
+We used Google Forms to survey the data. The questionnaire was divided into personal data and smartphone usage data. To compare the preferences of using smartphones with curved or rounded edges with a 5-scale response.  
 ![Design_Experiment](./2_Design_Experiment.png)
 
 ## Result  

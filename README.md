@@ -7,9 +7,9 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 |  | Detail |
 | --- | --- |
 | Objective | Using Supermarket Data for data visualization Perform a Customer Lifetime Value (CLV) analysis. |
-| Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008.  |
+| Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008. |
 | Technique | Power BI Make Dashboard  |
-| Performance Measurement | Find the Problem , Find the Reason, Solve the problem by Find the Action  |
+| Performance Measurement | Find the Problem , Find the Reason, Solve the problem by Find the Action |
   
 - [x] [02 Customer Segmentation](./02%20Customer%20Segmentation)  
 [![](https://img.shields.io/badge/-K--Means-orange)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
@@ -56,28 +56,26 @@ Presented by Kodchakorn Lernsuksarn 6310412001
   
 |  | Detail |
 | --- | --- |
-| Objective |  |
-| Dataset |  |
-| Technique |  |
-| Performance Measurement |  |
+| Objective | Use the given data to help analyze the group of customers that come in over time. divided as follows 1.New Customer 2.Reactivated 3.Repeat 4.Churn |
+| Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008. |
+| Technique | SQL (Query data), Google Data studio (Data Visualization) |
+| Performance Measurement | Find the Problem , Find the Reason, Solve the problem by Find the Action |
   
 - [x] [07 Voice of Customers](./07%20Voice%20of%20Customers)  
 [![](https://img.shields.io/badge/-NLP-orange)](#) [![](https://img.shields.io/badge/-Text--Summarization-orange)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
   
 |  | Detail |
 | --- | --- |
-| Objective |  |
-| Dataset |  |
-| Technique |  |
-| Performance Measurement |  |
+| Objective | Used Voice of Custome (voc) describes customer’s feedback about their experience with a product or service. VOC stands for the customer experience and mainly focuses on the customer’s Needs and expectations which depend on the satisfaction level, Voice of consumer acts as a strong communication platform for the customers to provide their feedback on any product they find requires improvement. |
+| Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008. |
+| Technique | Clustering using KMeans, Agglomorative Clustering with cosine similarity, Text Preprocessing, tf-idf, text-summary (Extraction) |
+| Performance Measurement | Perplexity, ROUGE,  Human Evaluation |
   
 - [x] [08 Design Thinking](./08%20Design%20Thinking)  
 [![](https://img.shields.io/badge/-Design--thinking-blue)](#) [![](https://img.shields.io/badge/-Presentation-blue)](#)  
   
 |  | Detail |
 | --- | --- |
-| Objective |  |
-| Dataset |  |
-| Technique |  |
-| Performance Measurement |  |
+| Objective | thinking process to solve problems or problems to the right point as well as developing new ideas to solve the problems or problems that have been set in order to find the best and most suitable way This process-based solution is focused on the user/consumer core. (User-centered) primarily with the intention of creating tangible future results. in order to answer questions as well as to solve problems effectively including new innovations that is useful as well |
+| Technique | Design Thinking has five stage. 1.Empathize 2.Define 3.Ideate 4.Prototype 5.Test |
   

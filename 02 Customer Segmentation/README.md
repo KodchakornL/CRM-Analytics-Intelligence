@@ -59,21 +59,21 @@ Before coming to this step data is Basket id level, item id can't be used for cl
   
   
 ### 5. Customer segmentation  
-1. compare model performance  
+**5.1. compare model performance**  
 From running to compare the models, it was found that the model with good performance was SC and Kmeans.  
   
 ![Compare_model](./06_Compare_model.png)  
   
   
   
-2. Use Spectral Clustering  
+**5.2. Use Spectral Clustering**  
 The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.   
     
 ![sc](./07_sc.png)  
   
   
   
-3. Use KMeans Clustering  
+**5.3. Use KMeans Clustering**  
 The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was found that the differences were clearly visible between the groups.  
 **therefore choose to use Kmeans** 
   
@@ -81,7 +81,7 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
 
 ![result_kmeans](./09_result_kmeans.png)  
   
-#### Elbow plot of Kmeans  and Silhouette plot of Kmeans  
+**5.4 Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
 - **Elbow plot of Kmeans**  
 This is probably the most well-known method for determining the optimal number of clusters. It is also a bit naive in its approach.
 Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of k, and choose the k for which WSS becomes first starts to diminish. In the plot of WSS-versus-k, this is visible as an elbow.  

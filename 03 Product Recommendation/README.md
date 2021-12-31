@@ -10,7 +10,7 @@ A survey asking whether or not the user (students from the class) has ever purch
  
 ## EDA
   
-![EDA](./02_EDA.png)  
+![EDA](./02.1_EDA.png)  
   
   
   

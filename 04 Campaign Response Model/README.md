@@ -47,13 +47,13 @@ A Retail-like dataset.There are 2 datasets:
   
 **2.2 Evaluate models (1st Round)**
 
-    **2.2.1 Creating train and test dataset**
+   **2.2.1 Creating train and test dataset**
   
 ![split_train_test_dataset](./06_split_train_test_dataset.png)
   
   
   
-  **2.2.2 Use 'SMOTE' fix SMOTE (synthetic minority oversampling technique) is one of the most commonly used oversampling methods to solve the imbalance problem. It aims to balance class distribution by randomly increasing minority class examples by replicating them.**
+   **2.2.2 Use 'SMOTE' fix SMOTE (synthetic minority oversampling technique) is one of the most commonly used oversampling methods to solve the imbalance problem. It aims to balance class distribution by randomly increasing minority class examples by replicating them.**
   
 ![unbalanced](./04_unbalanced.png)  
   

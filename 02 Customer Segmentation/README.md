@@ -184,10 +184,9 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
 1.ทำ 2x2 matrix เพื่อจัดการกลุ่ม ฺBargain hunter  
 2.ทำ Recommend additional products เพื่อใช้ทำ product association analysis  
 3.Spend stretch discount คือ การซื้อสินค้าหนึ่งจะได้รับส่วนลดอีกสินค้าหนึ่ง  
-__
-__
-__
-__
+  
+___________________________________________________________________________________________________________________________________________________________  
+  
 # Case One visit customer  
 ### 1. Prepare Customer Single View  
 **Features**  

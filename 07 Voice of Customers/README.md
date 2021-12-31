@@ -4,6 +4,9 @@
 **Notebooks:** [Voice of Customers](./07-Voice-of-Customers.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/07%20Voice%20of%20Customers/07_Voice_of_Customers.ipynb)  
   
+**Objective** :	Used Voice of Custome (voc) describes customer’s feedback about their experience with a product or service. VOC stands for the customer experience and mainly focuses on the customer’s Needs and expectations which depend on the satisfaction level, Voice of consumer acts as a strong communication platform for the customers to provide their feedback on any product they find requires improvement.  
+**Technique** :	Clustering using KMeans, Agglomorative Clustering with cosine similarity, Text Preprocessing, tf-idf, text-summary (Extraction)
+**Performance Measurement** :	Perplexity, ROUGE, Human Evaluation
   
 ## Dataset   
 Supermarket dataset contains 956K rows of sales transactions at sales-item level.  

@@ -83,8 +83,8 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
 
 ![result_kmeans](./09_result_kmeans.png)  
   
-**Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
-- Elbow plot of Kmeans  
+#### Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
+- **Elbow plot of Kmeans**  
 This is probably the most well-known method for determining the optimal number of clusters. It is also a bit naive in its approach.
 Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of k, and choose the k for which WSS becomes first starts to diminish. In the plot of WSS-versus-k, this is visible as an elbow.  
   
@@ -92,7 +92,7 @@ Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of
   
   
   
-- Silhouette plot of Kmeans  
+- **Silhouette plot of Kmeans**  
 The silhouette value measures how similar a point is to its own cluster (cohesion) compared to other clusters (separation).  
 The range of the Silhouette value is between +1 and -1. A high value is desirable and indicates that the point is placed in the correct cluster. If many points have a negative Silhouette value, it may indicate that we have created too many or too few clusters.  
   

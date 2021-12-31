@@ -184,12 +184,12 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
 1.ทำ 2x2 matrix เพื่อจัดการกลุ่ม ฺBargain hunter  
 2.ทำ Recommend additional products เพื่อใช้ทำ product association analysis  
 3.Spend stretch discount คือ การซื้อสินค้าหนึ่งจะได้รับส่วนลดอีกสินค้าหนึ่ง  
-  
-  
-  
-  
+__
+__
+__
+__
 # Case One visit customer  
-## 3. Prepare Customer Single View  
+## 1. Prepare Customer Single View  
 **Features**  
 * `Total_visit` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
 * `TotalSpend` : total spending over all 'active', representing *Monetary* in RFM analysis.  
@@ -208,13 +208,13 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
   
   
-## 4. Generate Customer Single View  
+## 2. Generate Customer Single View  
   
 ![Cust_sinview](./28_Cust_sinview.png)  
   
   
   
-## 5. Customer segmentation  
+## 3. Customer segmentation  
 1. compare model performance  
 From running to compare the models, it was found that the model with good performance was sc, ap and K-means.  
   
@@ -250,13 +250,13 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
   
   
   
-## 6.Interpret results and plan for actions  
+## 4.Interpret results and plan for actions  
   
 ![Dist](./41_Dist.png)  
   
   
   
-## 7.  ผลลัพธ์ของลูกค้าที่มาใช้บริการเพียง 1   1  ครั้งโดยใช้  K-means Clustering สรุปได้ดังนี้   
+## 5.  ผลลัพธ์ของลูกค้าที่มาใช้บริการเพียง 1   1  ครั้งโดยใช้  K-means Clustering สรุปได้ดังนี้   
 **1. Cluster 0 : Invisible man**  
 - มีจำนวนลูกค้า ~ 853 คน (~42.14% ของลูกค้าที่เคยมาเพียง 1 ครั้ง และ ~13.99 % ของลูกค้าทั้งหมด)  
 - มีรายรับจากลูกค้า (Total spend) ของกลุ่ม 0 ในระดับน้อย ( ~ 4.16 )  

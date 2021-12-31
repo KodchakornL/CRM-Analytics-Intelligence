@@ -60,21 +60,21 @@ Before coming to this step data is Basket id level, item id can't be used for cl
   
   
 ### 5. Customer segmentation  
-**5.1. compare model performance**  
+**5.1 compare model performance**  
 From running to compare the models, it was found that the model with good performance was SC and Kmeans.  
   
 ![Compare_model](./06_Compare_model.png)  
   
   
   
-**5.2. Use Spectral Clustering**  
+**5.2 Use Spectral Clustering**  
 The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.   
     
 ![sc](./07_sc.png)  
   
   
   
-**5.3. Use KMeans Clustering**  
+**5.3 Use KMeans Clustering**  
 The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was found that the differences were clearly visible between the groups.  
 **therefore choose to use Kmeans** 
   
@@ -213,14 +213,14 @@ ________________________________________________________________________________
   
   
 ### 3. Customer segmentation  
-**3.1. compare model performance**  
+**3.1 compare model performance**  
 From running to compare the models, it was found that the model with good performance was sc, ap and K-means.  
   
 ![Compare_model](./29_Compare_model.png)  
   
   
   
-**3.2. Use Spectral Clustering**  
+**3.2 Use Spectral Clustering**  
 The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.  
 **therefore choose to use Kmeans**  
   
@@ -228,7 +228,7 @@ The first model to run was sc. After the Plot PCA Run sc model, there was no dif
   
   
   
-**3.3. Use KMeans Clustering**  
+**3.3 Use KMeans Clustering**  
 The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was found that the differences were clearly visible between the groups.  
   
 ![kmeans](./31_kmeans.png)  

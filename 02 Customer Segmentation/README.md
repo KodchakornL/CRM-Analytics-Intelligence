@@ -20,7 +20,7 @@ Supermarket dataset contains 956K rows of sales transactions at sales-item level
   
   
   
-# Step of Customer segmentation (In the case of customers who purchase more than once)  
+# Step of Customer segmentation (Case customers purchase more than once)  
 #### 1. Install and import library Dependencies  
 #### 2. Load Data (Supermarket dataset)  
 ![load_data](./04_load_data.png)  

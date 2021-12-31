@@ -62,7 +62,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 | Performance Measurement | Find the Problem , Find the Reason, Solve the problem by Find the Action |
   
 - [x] [07 Voice of Customers](./07%20Voice%20of%20Customers)  
-(#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-NLP-green)](#) [![](https://img.shields.io/badge/-Text--processing-green)](#) [![](https://img.shields.io/badge/-Text--Summarization-green)]  
+[![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-NLP-green)](#) [![](https://img.shields.io/badge/-Text--processing-green)](#) [![](https://img.shields.io/badge/-Text--Summarization-green)](#)  
   
 |  | Detail |
 | --- | --- |

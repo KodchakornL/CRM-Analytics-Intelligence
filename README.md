@@ -9,14 +9,14 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 | Objective | Using Supermarket Data for data visualization Perform a Customer Lifetime Value (CLV) analysis. |
 | Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008.  |
 | Technique | Power BI Make Dashboard  |
-| Performance Measurement | Find the problem , find reason, Solve the problem by finding an action  |
+| Performance Measurement | Find the Problem , Find the Reason, Solve the problem by Find the Action  |
   
 - [x] [02 Customer Segmentation](./02%20Customer%20Segmentation)  
 [![](https://img.shields.io/badge/-K--Means-orange)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
   
 |  | Detail |
 | --- | --- |
-| Objective | The division of consumers according to specific characteristics. Because we can't answer everyone's problems, we have to choose which group of customers we can answer them well. |
+| Objective | The segmentation of consumers according to specific characteristics. Because we can't answer everyone's problems, we have to choose which group of customers we can answer them well. |
 | Dataset | Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008. |
 | Technique |  Clustering (an unsupervised machine learning technique) |
 | Performance Measurement | Using Silhouette,	Calinski-Harabasz,	Davies-Bouldin,	Homogeneity,	Rand Index and	Completeness compare model|
@@ -37,7 +37,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 |  | Detail |
 | --- | --- |
 | Objective | Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.  |
-| Dataset | Retail_Data_Response dataset consisting of customer_id, response => Customer level, Retail_Data_Transactions dataset consisting of customer_id, trans_date, tran_amount => Transaction level. |
+| Dataset | **Retail_Data_Response dataset** consisting of customer_id, response => Customer level, **Retail_Data_Transactions dataset** consisting of customer_id, trans_date, tran_amount => Transaction level. |
 | Technique | Classification (an supervised machine learning technique) |
 | Performance Measurement | AUC, ROC Curve, Confusion metrix |
   

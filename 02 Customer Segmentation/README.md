@@ -25,7 +25,8 @@ The information is divided into two groups :
   
 ![proportion_cust](./03_proportion_cust.png)  
   
-# Step of Customer segmentation (Case customers purchase more than once)  
+# Step of Customer segmentation 
+## Case 1 : customers purchase more than once)  
 ### 1. Install and import library Dependencies  
 ### 2. Load Data (Supermarket dataset)  
 ![load_data](./04_load_data.png)  
@@ -185,7 +186,7 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
   
 ___________________________________________________________________________________________________________________________________________________________  
   
-# Case One visit customer  
+## Case 2 : One visit customer  
 ### 1. Prepare Customer Single View  
 **Features**  
 * `Total_visit` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  
@@ -212,14 +213,14 @@ ________________________________________________________________________________
   
   
 ### 3. Customer segmentation  
-1. compare model performance  
+**3.1. compare model performance**  
 From running to compare the models, it was found that the model with good performance was sc, ap and K-means.  
   
 ![Compare_model](./29_Compare_model.png)  
   
   
   
-2. Use Spectral Clustering  
+**3.2. Use Spectral Clustering**  
 The first model to run was sc. After the Plot PCA Run sc model, there was no difference between the groups.  
 **therefore choose to use Kmeans**  
   
@@ -227,21 +228,21 @@ The first model to run was sc. After the Plot PCA Run sc model, there was no dif
   
   
   
-3. Use KMeans Clustering  
+**3.3. Use KMeans Clustering**  
 The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was found that the differences were clearly visible between the groups.  
   
 ![kmeans](./31_kmeans.png)  
 ![result_kmeans](./34_result_kmeans.png)  
   
   
-**Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
-**Elbow plot of Kmeans**  
+**3.4 Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
+- **Elbow plot of Kmeans**  
   
 ![elbow_kmeans](./32_elbow.png)  
   
   
   
-**Silhouette plot of Kmeans**  
+- **Silhouette plot of Kmeans**  
   
 ![silhouette_kmeans](./33_silhouettet_kmeans.png)  
   

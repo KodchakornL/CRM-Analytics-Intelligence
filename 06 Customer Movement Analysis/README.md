@@ -29,5 +29,8 @@ After importing the Supermarket dataset into Google Bigquery, then run sql scrip
   
   
 ## Result
-Data Visualization can be done immediately after running SQL on Google Bigquery using Google Data Studio.
-![Churn_datavitualize](./Churn_datavitualize.png)
+Data Visualization can be done immediately after running SQL on Google Bigquery using Google Data Studio.  
+From the dashboard, it was found that in the latest period,many customers have churn increase. Proportion repeat have more decrease.  Proportion new customer have more decrease.  Proportion reactivated have more decrease. Consequently, the number of active customers has decreased.  
+  
+![Churn_datavitualize](./Churn_datavitualize.png)  
+  

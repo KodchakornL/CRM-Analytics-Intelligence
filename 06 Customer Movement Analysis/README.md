@@ -13,7 +13,7 @@ Use the given data to help analyze the group of customers that come in over time
 **Before:** made purchase before last month (< M-1)  
   
 ## Dataset 📊  
-Supermarket dataset
+Supermarket data  contains 956K historical data from only 2 stores from 2006 to 2008.
 
 ## Data Preparation
 After importing the Supermarket dataset into Google Bigquery, then run sql script to get the result for further data visualization.

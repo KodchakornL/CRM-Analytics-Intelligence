@@ -1,12 +1,12 @@
 # Campaign Response Model
-[![](https://img.shields.io/badge/-Classification-orange)](#) [![](https://img.shields.io/badge/-RFM-blue)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Logistic--Regression-orange)](#) [![](https://img.shields.io/badge/-XGBoost-orange)](#) [![](https://img.shields.io/badge/-SMOTE-blue)](#) [![](https://img.shields.io/badge/-GridsearchCV-orange)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
+[![](https://img.shields.io/badge/-Classification-green)](#) [![](https://img.shields.io/badge/-Logistic--Regression-green)](#) [![](https://img.shields.io/badge/-XGBoost-green)](#) [![](https://img.shields.io/badge/-SMOTE-orange)](#) [![](https://img.shields.io/badge/-GridsearchCV-orange)](#) [![](https://img.shields.io/badge/-RFM-orange)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) 
   
 **Notebooks:** [Customers Segmentation](./03_Product_Recommendation.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/04%20Campaign%20Response%20Model/04_Campaign_Response_Model_Evaluate_by_Auctrain_Auctest.ipynb) 
   
-**Objective** :	Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.
-**Technique** :	Classification (an supervised machine learning technique)
-**Performance Measurement** :	AUC, ROC Curve, Confusion metrix
+**Objective** :	Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.  
+**Technique** :	Classification (an supervised machine learning technique)  
+**Performance Measurement** :	AUC, ROC Curve, Confusion metrix  
   
 ## Dataset
 A Retail-like dataset.There are 2 datasets: 

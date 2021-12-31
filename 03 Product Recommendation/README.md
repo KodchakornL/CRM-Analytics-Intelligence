@@ -1,5 +1,5 @@
-# Product Recommendation
-[![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-Market--Basket-green)](#) [![](https://img.shields.io/badge/-Collaborative--Filtering-green)](#) [![](https://img.shields.io/badge/-Matrix--Factorization-green)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
+# Product Recommendation  
+[![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-Market--Basket-green)](#) [![](https://img.shields.io/badge/-Collaborative--Filtering-green)](#) [![](https://img.shields.io/badge/-Matrix--Factorization-green)](#)  
   
 **Notebooks:** [Product_Recommendation](./03_Product_Recommendation.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/03%20Product%20Recommendation/03_Product_Recommendation.ipynb) 

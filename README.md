@@ -37,8 +37,7 @@ Presented by Kodchakorn Lernsuksarn 6310412001
 |  | Detail |
 | --- | --- |
 | Objective | Campaign response data from customers whether they are from existing or new customers who are interested in an organized campaign, which allows them to know how many customers are interested in an organized campaign.  |
-| Dataset | **Retail_Data_Response dataset** consisting of customer_id, response => Customer level  
-**Retail_Data_Transactions dataset** consisting of customer_id, trans_date, tran_amount => Transaction level. |
+| Dataset | **Retail_Data_Response dataset** consisting of customer_id, response => Customer level, **Retail_Data_Transactions dataset** consisting of customer_id, trans_date, tran_amount => Transaction level. |
 | Technique | Classification (an supervised machine learning technique) |
 | Performance Measurement | AUC, ROC Curve, Confusion metrix |
   
@@ -47,10 +46,10 @@ Presented by Kodchakorn Lernsuksarn 6310412001
   
 |  | Detail |
 | --- | --- |
-| Objective |  |
-| Dataset |  |
-| Technique |  |
-| Performance Measurement |  |
+| Objective | Conduct an A/B Testing by Survey method on surveying whether you prefer a smartphone with a rounded edge or a square edge. |
+| Dataset | We used Google Forms to survey the data. The questionnaire was divided into personal data and smartphone usage data. To compare the preferences of using smartphones with curved or rounded edges with a 5-scale response.   |
+| Technique | A/B Testing, Parametric Statistics (t-test) |
+| Performance Measurement | Significance or not Significance |
   
 - [x] [06 Customer Movement Analysis](./06%20Customer%20Movement%20Analysis)  
 [![](https://img.shields.io/badge/-SQL-green)](#) [![](https://img.shields.io/badge/-BigQuery-green)](#) [![](https://img.shields.io/badge/-Google--Data--Studio-blue)](#)  

@@ -1,9 +1,12 @@
 # Product Recommendation
-[![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-Market--Basket-blue)](#) [![](https://img.shields.io/badge/-Collaborative--Filtering-blue)](#) [![](https://img.shields.io/badge/-Matrix--Factorization-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) 
+[![](https://img.shields.io/badge/-Survey-blue)](#) [![](https://img.shields.io/badge/-Market--Basket-blue)](#) [![](https://img.shields.io/badge/-Collaborative--Filtering-blue)](#) [![](https://img.shields.io/badge/-Matrix--Factorization-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
   
 **Notebooks:** [Product_Recommendation](./03_Product_Recommendation.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/03%20Product%20Recommendation/03_Product_Recommendation.ipynb) 
   
+**Objective** :	the process of identifying products that appeal to individual users and presenting them at an opportune moment as a way of encouraging cross-selling and upselling. For most ecommerce businesses, product recommendations have now long been an integral aspect of their operations, increasing revenue and user engagement.
+**Technique** :	Association Rules, Collaborative Filtering, Matrix Factorization
+**Performance Measurement** : Human Evaluation
   
 ## Dataset 
 A survey asking whether or not the user (students from the class) has ever purchased/used an item. We received 30 responses, and each respondent rated each item from 27 items as Yes or No.  

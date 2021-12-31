@@ -1,12 +1,12 @@
 # Customer Segmentation
 [![](https://img.shields.io/badge/-K--Means-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
   
-**Objective** : The segmentation of consumers according to specific characteristics. Because we can't answer everyone's problems, we have to choose which group of customers we can answer them well.  
-Technique** : Clustering (an unsupervised machine learning technique)  
-Performance Measurement : Using Silhouette, Calinski-Harabasz, Davies-Bouldin, Homogeneity, Rand Index and Completeness compare model  
-  
 **Notebooks:** [Customers Segmentation](./02_Customer_Segmentation.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/02%20Customer%20Segmentation/02_Customer_Segmentation.ipynb)  
+  
+**Objective** : The segmentation of consumers according to specific characteristics. Because we can't answer everyone's problems, we have to choose which group of customers we can answer them well.  
+**Technique** : Clustering (an unsupervised machine learning technique)  
+**Performance Measurement** : Using Silhouette, Calinski-Harabasz, Davies-Bouldin, Homogeneity, Rand Index and Completeness compare model  
   
 ## Overview Customer segmentation
 ![intro](./01_intro.png)  

@@ -1,5 +1,5 @@
 # Customer Segmentation
-[![](https://img.shields.io/badge/-K--Means-blue)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
+[![](https://img.shields.io/badge/-K--Means-green)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)  
   
 **Notebooks:** [Customers Segmentation](./02_Customer_Segmentation.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/02%20Customer%20Segmentation/02_Customer_Segmentation.ipynb)  

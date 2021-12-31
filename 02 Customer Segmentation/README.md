@@ -83,7 +83,7 @@ The first model to run was Kmeans. After the Plot PCA Run kmeans model, it was f
 
 ![result_kmeans](./09_result_kmeans.png)  
   
-#### Elbow plot of Kmeans  and Silhouette plot of Kmeans**  
+#### Elbow plot of Kmeans  and Silhouette plot of Kmeans  
 - **Elbow plot of Kmeans**  
 This is probably the most well-known method for determining the optimal number of clusters. It is also a bit naive in its approach.
 Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of k, and choose the k for which WSS becomes first starts to diminish. In the plot of WSS-versus-k, this is visible as an elbow.  

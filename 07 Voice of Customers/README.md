@@ -1,5 +1,5 @@
 # Voice of Customers
-[![](https://img.shields.io/badge/-NLP-green)](#) [![](https://img.shields.io/badge/-Text--processing-green)](#) [![](https://img.shields.io/badge/-Text--Summarization-green)](#) [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#)   
+[![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-Google--Colab-blue)](#) [![](https://img.shields.io/badge/-NLP-green)](#) [![](https://img.shields.io/badge/-Text--processing-green)](#) [![](https://img.shields.io/badge/-Text--Summarization-green)](#)  
   
 **Notebooks:** [Voice of Customers](./07-Voice-of-Customers.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KodchakornL/BADS7105-CRM-Analytics-Intelligence/blob/main/07%20Voice%20of%20Customers/07_Voice_of_Customers.ipynb)  

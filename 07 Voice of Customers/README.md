@@ -12,23 +12,23 @@
 Supermarket dataset contains 956K rows of sales transactions at sales-item level.  
 The dataset received is just a part of Dunhumbly public dataset which is way more bigger. There seems to be historical data from only 2 stores from year 2006 to 2008.  
     
-## Step Voice of customers
-**1. Install and import library**  
-**2. Load data "Wongnai Reviews - Small.csv" and module_url**  
-**3. Document embedding and dimension reduction**  
+# Step Voice of customers
+### **1. Install and import library**  
+### **2. Load data "Wongnai Reviews - Small.csv" and module_url**  
+### **3. Document embedding and dimension reduction**  
   
 ![Document_embedding&dimension_reduction](./01_Document_embedding&dimension_reduction.png)  
   
   
   
-**4. Document clustering using KMeans (number of Group K = 4)**  
+### **4. Document clustering using KMeans (number of Group K = 4)**  
   
 ![KMeans](./02_KMeans.png)  
 ![KMeans](./03_KMeans.png)  
   
   
   
-**5. Text Preprocessing**  
+### **5. Text Preprocessing**  
    - Cleaning data (special characters, emoji, number, white space, dot, backslash)  
    - Stop words  
    - word tokenization   
@@ -43,20 +43,20 @@ The dataset received is just a part of Dunhumbly public dataset which is way mor
   
   
   
-**6. Try another document clustering using Agglomorative Clustering with cosine similarity.**  
+### **6. Try another document clustering using Agglomorative Clustering with cosine similarity.**  
   
 ![AgglomorativeClustering_cosinesim](./07_AgglomorativeClustering_cosinesim.png) 
 ![AgglomorativeClustering_cosinesim](./08_AgglomorativeClustering_cosinesim.png) 
  
  
  
-**7. I did a search for keywords in each group of KMeans. Generate TF-IDF find importance word each document.**  
+### **7. I did a search for keywords in each group of KMeans. Generate TF-IDF find importance word each document.**  
   
 ![tfidf](./09_tfidf.png)  
   
   
   
-**8. Generate Text summary Extraction in 4 Group by TF-IDF (to summarize the document and keep it Semantic).**  
+### **8. Generate Text summary Extraction in 4 Group by TF-IDF (to summarize the document and keep it Semantic).**  
   
 ![text_sum](./10_text_sum.png)  
   

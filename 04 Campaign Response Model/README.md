@@ -47,7 +47,7 @@ A Retail-like dataset.There are 2 datasets:
   
 **2.2 Evaluate models (1st Round)**
 
-   **2.2.1 Creating train and test dataset**
+    **2.2.1 Creating train and test dataset**
   
 ![split_train_test_dataset](./06_split_train_test_dataset.png)
   
@@ -109,7 +109,7 @@ AUC score test set = 0.7043
 #### **3.2 Hyperparameter Tunning Model**  
 Use GridSearchCV()  
   
-#### **RFM  Dataset**  
+##### **RFM  Dataset**  
 AUC score training set = 0.7807
 AUC score test set = 0.7201  
   
@@ -121,7 +121,7 @@ AUC score test set = 0.7201
   
   
   
-#### **CLV  Dataset**  
+##### **CLV  Dataset**  
 AUC score training set = 0.7886  
 AUC score test set = 0.7436  
   
@@ -132,7 +132,7 @@ AUC score test set = 0.7436
 ![Hyperparameter Tunning Model](./20_GridseachCV_roc_clv.png)  
   
   
-###4.Result
+### 4.Result
 From the campaign response data, the results were obtained after the run model. Better results were obtained after using model selection and hyperparameter tuning to determine the best parameters and the AUC score was greatly improved.  
   
 Targeting the most potential customers will help to maximize campaign’s ROI. To put it in numerical terms, if targeting the wrong customers can have a negative impact on reputation.

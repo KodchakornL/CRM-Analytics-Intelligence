@@ -1,6 +1,10 @@
 # Customer Movement Analysis
 [![](https://img.shields.io/badge/-SQL-blue)](#) [![](https://img.shields.io/badge/-BigQuery-blue)](#) [![](https://img.shields.io/badge/-Google--Data--Studio-blue)](#)  
-
+  
+**Objective** :	Use the given data to help analyze the group of customers that come in over time. divided as follows 1.New Customer 2.Reactivated 3.Repeat 4.Churn  
+**Technique** :	SQL (Query data), Google Data studio (Data Visualization)  
+**Performance Measurement** :	Find the Problem , Find the Reason, Solve the problem by Find the Action  
+  
 Use the given data to help analyze the group of customers that come in over time. divided as follows    
 1. New Customer    
 2. Reactivated  

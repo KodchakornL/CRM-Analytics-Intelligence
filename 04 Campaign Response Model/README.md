@@ -10,23 +10,24 @@ A Retail-like dataset.There are 2 datasets:
 2. Retail_Data_Transactions dataset consisting of customer_id, trans_date, tran_amount => Transaction level. The table doesn't have trans_id, so we use tran_date as an identifier instead. If we want these 2 tables to join together, we can't do it at different levels. We have to make it a Customer level so that we can combine them to get into the model.
 
 
-## Step of Campaign Response Model
+# Step of Campaign Response Model
   
-### 1.Explore data
-   1. EDA  
+### 1.Explore data  
+  
+**1.1 EDA**  
   
 ![EDA](./01_EDA.png)  
   
   
   
-   2. Cohort Analysis  
+**2.2 Cohort Analysis**  
   
 ![cohort](./02_cohort.png)  
   
   
   
 ## 2 Feature Engineering  
-**1. Features**
+**2.1. Features**
   
 * `recency` : the range from the last day that the customer arrived with the current day, representing *Recency* in RFM analysis.  
 * `Frequency` : total distinct transactions over all 'active' , representing *Frequency* in RFM analysis.  

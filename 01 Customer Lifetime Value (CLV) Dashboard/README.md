@@ -34,7 +34,7 @@ Dashboards need to make users think quickly. causing the reason for the problem,
 1. The number of customers decreases MTD but the number of customers increases YOY.    
 2. Ticket size is reduced for both MTD and YOY.  
 3. Churn rate decreases YOY.  
-4. APRU (Average Revenue Per User) decreases YOY.  
+4. ARPU (Average Revenue Per User) decreases YOY.  
 5. Price sensitivity slightly decreased, YOY for all groups.  
 6. Lifestage Slightly reduced YOY in all groups.  
 7. Conversion rate for both stores has decreased YOY.  

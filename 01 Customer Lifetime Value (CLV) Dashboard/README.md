@@ -47,7 +47,7 @@ The dashboard must give the user an idea of ​​what needs to be done to solve
 ## About Sales Dashboard
 ![SALES ANALYTIC](./DT_SALES_ANALYTIC_1.png)
 
-## Anout Shopping Hours Dashboard
+## About Shopping Hours Dashboard
 ![Shopping_hour&Conversion](./DT_Shopping_hour&Conversion_2.png)
 
 ## About Customers Dashboard
